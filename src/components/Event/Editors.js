@@ -12,7 +12,7 @@ const Editors = ({ event }) => {
 
   for (var i = 0; i < blogs.length; i++) {
     for (var j = 0; j < blogs[i].tags.length; j++) {
-      if (blogs[i].tags[j] == event) {
+      if (blogs[i].tags[j] === event) {
         eventBlogs.push(blogs[i]);
       }
     }

@@ -17,7 +17,7 @@ import {
   positionsInactive,
   positionsActive,
 } from "../components/SampleData/Positions";
-import { AllAchievements } from "../components/SampleData/AchievementsData";
+// import { AllAchievements } from "../components/SampleData/AchievementsData";
 import reviews from "../components/SampleData/ReviewData";
 
 const Profile = () => {
