@@ -1,0 +1,137 @@
+/* Landing Section */
+
+.landing {
+    background-image: url('./../../assets/home.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 87.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding: 10rem;
+}
+
+.big-text {
+    font-size: 42px;
+    font-weight: 700;
+    opacity: 80%;
+    align-self: left;
+    margin-bottom: -1rem;
+}
+
+.subtext {
+    font-size: 33.5px;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+/* --------------------- */
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 4rem;
+    text-transform: uppercase !important;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    opacity: 85%;
+}
+
+/* Tekkers Section */
+
+.tekkers-section {
+    color: white;
+    background: linear-gradient(to right, #555252, #a7a3a3);
+    border-radius: 15px;
+    margin-top: 4rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stats Section */
+
+.stats-section {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 4rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stats-title {
+    font-size: 100px;
+    font-weight: 900;
+    -webkit-text-stroke: 5px red;
+    color: transparent;
+    text-align: center
+}
+
+/* FAQ Section */
+
+.faq-section {
+    color: white;
+    background: linear-gradient(to right, #555252, #a7a3a3);
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 4rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion-item {
+    background-color: transparent !important;
+    color: white !important
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    color: white !important
+}
+
+@media only screen and (max-width: 768px) {
+    .landing {
+        height: 90vh;
+        background-image: url('./../../assets/home-mob2.png');
+        padding: 5%
+    }
+
+    .big-text {
+        font-size: 30px !important;
+    }
+
+    .subtext {
+        font-size: 18px;
+    }
+
+    .intro {
+        width: 100% !important;
+    }
+
+    .quick-cards {
+        flex-wrap: wrap;
+    }
+
+    .logos {
+        width: 100% !important;
+    }
+
+    .stats-title {
+        font-size: 75px;
+    }
+}

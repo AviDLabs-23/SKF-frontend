@@ -1,0 +1,38 @@
+.navbar {
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: transparent !important
+}
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.midNav {
+    margin: 0 auto 0 auto;
+}
+
+.btn-register {
+    background-color: #35b648 !important;
+}
+
+.btn-login {
+    background-color: #0286F0 !important;
+}

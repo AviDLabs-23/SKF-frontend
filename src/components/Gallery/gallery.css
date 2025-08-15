@@ -1,0 +1,46 @@
+.gallery-landing {
+    background-image: url('./../../assets/background/gallery-landing.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding: 10rem;
+}
+
+.gallery-title {
+    font-size: 75px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 700;
+    opacity: 80%;
+    align-self: left;
+    margin-bottom: 1rem;
+}
+
+.lg-react-element {
+    column-count: 5;
+    column-gap: 10px;
+}
+
+.gallery-img {
+    max-width: 100%;
+    display: block;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+.gallery-img:hover {
+    filter: opacity(0.8);
+}
+
+@media only screen and (max-width: 768px) {
+    .lg-react-element {
+        column-count: 2;
+    }
+}

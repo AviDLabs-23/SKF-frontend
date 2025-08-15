@@ -1,0 +1,31 @@
+.faq-section {
+    color: white;
+    background: linear-gradient(to right, #555252, #a7a3a3);
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 4rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion-item {
+    background-color: transparent !important;
+    color: white !important
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    color: white !important
+}
+
+@media only screen and (max-width: 768px) {
+
+    .big-text {
+        font-size: 30px !important;
+    }
+
+    .subtext {
+        font-size: 18px;
+    }
+}

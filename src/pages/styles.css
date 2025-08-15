@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+    .blog-mob-text {
+        overflow-y: hidden !important;
+        height: auto !important;
+    }
+
+    .achievement-card {
+        width: "33.33%" !important;
+    }
+}

@@ -1,0 +1,43 @@
+.winner-card {
+    min-width: 18%;
+    max-height: auto;
+    background-color: #F5F5DC;
+    border-radius: 20px;
+    opacity: 100%;
+    color: black;
+    background-size: contain;
+    margin: 2rem;
+}
+
+.card-text-area {
+    padding: 1rem;
+}
+
+.winner-title {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.winner-venue {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.winner-schedule {
+    font-size: 18px;
+    font-weight: 600
+}
+
+@media only screen and (max-width: 768px) {
+    .winner-card {
+        margin: "2px" !important;
+    }
+
+    .winner-logo {
+        width: 100% !important;
+    }
+
+    .winner-details {
+        width: 100% !important;
+    }
+}

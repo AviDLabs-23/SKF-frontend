@@ -1,0 +1,51 @@
+.play-landing {
+    background-image: url('./../../assets/background/play-landing.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 87.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding: 10rem;
+}
+
+.big-text {
+    font-size: 42px;
+    font-weight: 700;
+    opacity: 80%;
+    align-self: left;
+}
+
+.subtext {
+    font-size: 33.5px;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+
+.players-section {
+    color: white;
+    margin-top: 4rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .play-landing {
+        height: 90vh;
+        background-image: url('./../../assets/home-mob2.png');
+        padding: 5%;
+    }
+
+    .big-text {
+        font-size: 30px !important;
+    }
+
+    .subtext {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,30 @@
+.game-card {
+    min-width: 18%;
+    max-height: auto;
+    background-color: #F5F5DC;
+    border-radius: 20px;
+    opacity: 100%;
+    color: black;
+    padding-bottom: 1rem;
+    background-size: contain;
+    margin: 2rem;
+}
+
+.game-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    padding-top: 1rem;
+}
+
+.game-location {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600
+}
+
+@media only screen and (max-width: 768px) {
+    .game-card {
+        margin: "2px"
+    }
+}

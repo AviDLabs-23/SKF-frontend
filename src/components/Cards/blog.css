@@ -1,0 +1,45 @@
+.editors-section {
+    color: white;
+    margin-top: 4rem;
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 0 20px 0;
+}
+
+.big-blog-card-title {
+    font-size: 42px;
+    font-weight: 700;
+    opacity: 80%;
+    align-self: left;
+    margin-bottom: -1rem;
+}
+
+.blog-card-sub-text {
+    font-weight: 700;
+    opacity: 80%;
+    align-self: left;
+    margin-bottom: -1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .blog-card {
+        margin: "2px"
+    }
+
+    .big-text {
+        font-size: 30px !important;
+    }
+
+    .big-blog-card-title {
+        font-size: 24px
+    }
+
+    .blog-image {
+        border-radius: 20px 20px 0 0 !important;
+    }
+
+    .blog-card-sub-text {
+        font-size: 20px !important;
+    }
+}

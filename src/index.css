@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+.main {
+  background-color: #000000;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+
+.layout-style {
+  width: 100%;
+  margin: auto;
+}
+
+.b {
+  border: 2px solid red;
+}
+
+.landing-text {
+  font-size: 75px !important
+}
+
+/* Page Not Found */
+
+.pg404 {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pg404-title {
+  font-size: 100px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.pg404-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.pg404-btn:hover {
+  color: white;
+  background: black;
+}
+
+.pg404-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Contact */
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subTitle {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 3px;
+}
+
+/* Privacy Policies */
+
+.policies {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About Us */
+
+.aboutus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* All Cards */
+
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Product Card Link */
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+  text-align: justify;
+  text-justify: inter-word;
+  flex-basis: 33.33%;
+}
+
+/* Wishlist Sign */
+
+#heart {
+  color: grey;
+  font-size: 50px;
+}
+
+#heart.red {
+  color: red;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .mob-hide {
+    display: none !important;
+  }
+
+  .mob-display {
+    display: block !important;
+  }
+
+  .mob-full-w {
+    width: 100% !important;
+    padding: 10px !important;
+    border: none !important;
+  }
+}

@@ -1,0 +1,63 @@
+/* Landing Section */
+
+.events-landing {
+    background-image: url('./../../assets/home.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 87.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding: 10rem;
+}
+
+.big-text {
+    font-size: 42px;
+    font-weight: 700;
+    opacity: 80%;
+    align-self: left;
+    margin-bottom: -1rem;
+}
+
+.subtext {
+    font-size: 33.5px;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+/* --------------------- */
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 4rem;
+    text-transform: uppercase !important;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    opacity: 85%;
+}
+
+@media only screen and (max-width: 768px) {
+    .events-landing {
+        height: 90vh;
+        background-image: url('./../../assets/home-mob2.png');
+    }
+
+    .big-text {
+        font-size: 30px !important;
+    }
+
+    .subtext {
+        font-size: 18px;
+    }
+}
