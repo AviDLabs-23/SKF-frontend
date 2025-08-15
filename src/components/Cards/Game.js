@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 import "./game.css";
-import Location from "../../assets/icons/location.png";
+// import Location from "../../assets/icons/location.png";
 
 const Game = ({ image, name, location, day, date, time }) => {
   return (
