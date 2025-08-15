@@ -38,7 +38,7 @@ const ContactSection = () => {
             !
           </div>
         </div>
-        <img src={Img} style={{ maxWidth: "75%" }} className="mob-hide" />
+        <img src={Img} alt="" style={{ maxWidth: "75%" }} className="mob-hide" />
       </div>
       <div className="p-5 col-md-4" style={{ alignContent: "flex-end" }}>
         <div
