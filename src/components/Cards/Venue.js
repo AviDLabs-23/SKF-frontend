@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./venue.css";
 import Location from "../../assets/icons/location.png";
 
